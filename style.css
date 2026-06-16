@@ -1,5 +1,23 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
     background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
 }
 
 h1 {
@@ -10,6 +28,19 @@ h1 {
     color: #fff;
     text-align: center;
     z-index: 1;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .background-container {
